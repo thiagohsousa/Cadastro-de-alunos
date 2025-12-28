@@ -1,14 +1,16 @@
 alunos = []
 
 def menu():
-    print("--------------------------------------")
-    print("C A D A S T R O   D E   A L U N O S")
-    print("--------------------------------------")
-    print(" ")
-    print("1 - Cadastrar novo aluno")
-    print("2 - Listar alunos")
-    print("3 - Sortear aluno")
-    print("4 - Sair")
+    print("""--------------------------------------
+    C A D A S T R O   D E   A L U N O S
+    --------------------------------------
+    
+    1 - Cadastrar novo aluno
+    2 - Listar alunos
+    3 - Sortear aluno
+    4 - Sair
+--------------------------------------""")
+          
     opcao = input("Escolha uma opção: ")
     return opcao
 
